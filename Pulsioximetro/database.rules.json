@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "UsersData": {
+      "$uid": {
+        ".read": "$uid === auth.uid", // Permite leer solo los datos del usuario autenticado
+        ".write": "$uid === auth.uid"  // Permite escribir solo en los datos del usuario autenticado
+      }
+    }
+  }
+}
+
+

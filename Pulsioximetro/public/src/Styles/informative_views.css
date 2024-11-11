@@ -1,0 +1,94 @@
+/* Estilo general del documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #D8ABB7;
+    color: #333;
+}
+
+/* Encabezado principal */
+h1 {
+    color: #880E4F;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: #EDD5D8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Encabezados secundarios */
+h2 {
+    color: #AD1457;
+    margin-top: 1em;
+    font-size: 1.8em;
+    padding: 10px;
+    background-color: #EDD5D8;
+    border-left: 5px solid #AD1457;
+    border-radius: 5px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1em;
+    margin: 15px;
+    padding: 10px;
+    background-color: #F8E1E7;
+    border-left: 5px solid #AD1457;
+    border-radius: 5px;
+}
+
+/* Listas */
+ul {
+    list-style-type: disc;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #EDD5D8;
+    border-left: 5px solid #880E4F;
+    border-radius: 5px;
+}
+
+/* Efecto de transición */
+h1, h2, p, ul li {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto hover en lista */
+ul li:hover {
+    background-color: #D7A1AE;
+}
+
+/* Efecto hover en encabezados */
+h1:hover, h2:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #AD1457;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+.btn:hover {
+    background-color: #880E4F;
+    cursor: pointer;
+}
